@@ -4,7 +4,7 @@ from xblock.core import XBlock
 from django.template.context import Context
 from xblock.fields import Integer, String, Scope, Boolean, Float
 from xblockutils.resources import ResourceLoader
-from xblock.fragment import Fragment
+from web_fragments.fragment import Fragment
 import datetime
 
 loader = ResourceLoader(__name__)
